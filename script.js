@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadProjects() {
         try {
-            const res = await fetch('projects.json');
+            const res = await fetch('projects.json?v=' + new Date().getTime());
             if (!res.ok) throw new Error('load failed');
             const projects = await res.json();
 
