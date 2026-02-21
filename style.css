@@ -1,0 +1,286 @@
+/* ============================================================
+   JAINAM PATEL — style.css
+   Premium Project Cards — Spotlight Glow + 3D Tilt
+   ============================================================ */
+
+/* ─── Project Card Base ──────────────────────────────────── */
+.project-card {
+    background: var(--glass);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--glass-border);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), border-color 0.35s var(--ease);
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    height: 100%;
+    backdrop-filter: blur(12px);
+    will-change: transform;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(59, 130, 246, 0.35);
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.4),
+        0 0 0 1px rgba(59, 130, 246, 0.15);
+}
+
+/* ── Spotlight glow on hover ── */
+.project-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+            rgba(59, 130, 246, 0.10),
+            transparent 50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    z-index: 1;
+    border-radius: inherit;
+}
+
+.project-card:hover::before {
+    opacity: 1;
+}
+
+/* ── Animated top-border gradient ── */
+.project-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple), var(--neon-pink));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s var(--ease);
+    z-index: 5;
+}
+
+.project-card:hover::after {
+    transform: scaleX(1);
+}
+
+/* ── Inner border glow (spotlight ring) ── */
+.card-border {
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius-md);
+    padding: 1px;
+    background: radial-gradient(500px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+            rgba(59, 130, 246, 0.5),
+            transparent 40%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.project-card:hover .card-border {
+    opacity: 1;
+}
+
+/* ── Card Icon (type badge at top) ── */
+.card-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    z-index: 3;
+    transition: transform 0.3s var(--bounce);
+}
+
+.project-card:hover .card-icon {
+    transform: rotate(-8deg) scale(1.1);
+}
+
+/* ── Card Content ── */
+.card-content {
+    padding: 28px 24px 24px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* ── Card Header ── */
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.card-header h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.3;
+    transition: color 0.25s;
+}
+
+.project-card:hover .card-header h3 {
+    color: #ffffff;
+}
+
+/* ── Badges ── */
+.badge {
+    flex-shrink: 0;
+    background: linear-gradient(135deg, var(--neon-blue), var(--neon-purple));
+    color: white;
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.5);
+    white-space: nowrap;
+}
+
+.badge-type {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.badge-type::before {
+    content: '';
+    width: 16px;
+    height: 1px;
+    background: var(--text-muted);
+}
+
+/* ── Description ── */
+.project-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.75;
+    margin-bottom: 22px;
+    flex-grow: 1;
+}
+
+/* ── Card Footer (tags + link) ── */
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: auto;
+}
+
+/* ── Tags ── */
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.card-tags span {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 50px;
+    background: rgba(59, 130, 246, 0.08);
+    color: var(--neon-blue);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+    transition: all 0.25s var(--ease);
+}
+
+.project-card:hover .card-tags span {
+    background: rgba(59, 130, 246, 0.15);
+    border-color: rgba(59, 130, 246, 0.35);
+}
+
+/* ── Arrow Button ── */
+.card-arrow {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.3s var(--bounce);
+    color: var(--text-muted);
+}
+
+.project-card:hover .card-arrow {
+    background: var(--neon-blue);
+    border-color: var(--neon-blue);
+    color: white;
+    transform: rotate(-45deg);
+    box-shadow: 0 4px 12px var(--glow-blue);
+}
+
+/* ─── Featured Card Variant ──────────────────────────────── */
+.project-card.featured {
+    border-color: rgba(59, 130, 246, 0.2);
+    background: linear-gradient(145deg,
+            rgba(59, 130, 246, 0.06) 0%,
+            rgba(139, 92, 246, 0.04) 100%);
+}
+
+/* ─── Animations ─────────────────────────────────────────── */
+.fade-in-up {
+    animation: cardFadeUp 0.6s var(--ease) forwards;
+}
+
+@keyframes cardFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ─── Mobile ─────────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .card-content {
+        padding: 22px 18px 18px;
+    }
+
+    .card-header h3 {
+        font-size: 1rem;
+    }
+
+    .project-card p {
+        font-size: 0.85rem;
+    }
+
+    .tech-orbit {
+        display: none;
+    }
+}
