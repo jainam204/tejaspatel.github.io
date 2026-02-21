@@ -1,83 +1,63 @@
 [
     {
-        "title": "Roos Park Restaurant Website",
+        "title": "Industrial Pressure Vessel",
         "type": "Featured",
         "tags": [
-            "React",
-            "Node.js",
-            "AI",
-            "Replit"
+            "PV Elite",
+            "ASME Sec VIII",
+            "SolidWorks",
+            "AutoCAD"
         ],
-        "description": "Full-stack restaurant platform featuring AI-driven menu suggestions and smart ordering. Includes real-time table booking, WhatsApp integration, and a comprehensive admin dashboard."
+        "description": "Comprehensive design and analysis of a high-pressure industrial vessel, ensuring structural integrity and compliance with ASME boiler and pressure vessel codes."
     },
     {
-        "title": "Employee Management System",
-        "type": "Web",
+        "title": "Shell & Tube Heat Exchanger",
+        "type": "Design",
         "tags": [
-            "Flask",
-            "MySQL",
-            "Pandas"
+            "Thermal Analysis",
+            "SolidWorks",
+            "GD&T"
         ],
-        "description": "Comprehensive workforce management system featuring secure authentication, bulk data processing (Excel/CSV), and an interactive analytics dashboard."
+        "description": "Detailed 3D modeling and thermal efficiency analysis of a custom shell and tube heat exchanger optimized for chemical plant operations."
     },
     {
-        "title": "Android Auth App",
-        "type": "Mobile",
+        "title": "Piping & Equipment Layout",
+        "type": "Layout",
         "tags": [
-            "Jetpack Compose",
-            "Firebase",
-            "Material 3"
+            "AutoCAD 3D",
+            "P&ID",
+            "Routing"
         ],
-        "description": "Modern Material 3 Android application implementing secure authentication flows, including Google Sign-In and Firebase backend integration."
+        "description": "Developed an extensive 3D piping layout and general arrangement (GA) drawings for a new manufacturing facility, ensuring optimal workflow and maintenance access."
     },
     {
-        "title": "Phone Inventory System",
-        "type": "Web",
+        "title": "Storage Tank FEA Analysis",
+        "type": "Analysis",
         "tags": [
-            "HTML",
-            "JavaScript",
-            "Flask API",
-            "JWT"
+            "NozzlePRO",
+            "Ansys",
+            "Stress Analysis"
         ],
-        "description": "Real-time inventory tracking system with secure JWT authentication, dynamic product management, and instant search capabilities."
+        "description": "Conducted finite element analysis (FEA) on a large-scale storage tank to evaluate localized stresses at nozzle intersections and support attachments."
     },
     {
-        "title": "AI Career Guidance App",
-        "type": "AI",
+        "title": "Automated Conveyor System",
+        "type": "Automation",
         "tags": [
-            "Streamlit",
-            "LLaMA",
-            "Python"
+            "Autodesk Inventor",
+            "Sheet Metal",
+            "BOM"
         ],
-        "description": "Bilingual AI career counselor powered by LLaMA, providing personalized professional guidance in Gujarati and English."
+        "description": "Designed a custom automated material handling conveyor system, including sheet metal enclosures and standardized component selection."
     },
     {
-        "title": "Windows Forms CAD Automation",
-        "type": "Desktop",
+        "title": "Custom HVAC Assembly",
+        "type": "HVAC",
         "tags": [
-            "C#",
-            "SolidWorks API",
-            ".NET",
-            "SQLite"
+            "SolidWorks",
+            "Fluid Dynamics",
+            "Drafting"
         ],
-        "description": "Desktop automation tool for SolidWorks, streamlining CAD workflows with custom UserControls and local SQLite data management."
-    },
-    {
-        "title": "Order Management System",
-        "type": "Web",
-        "tags": [
-            "React",
-            "Node.js"
-        ],
-        "description": "Scalable industrial workflow system designed to optimize order processing and tracking using a React and Node.js architecture."
-    },
-    {
-        "title": "AI Portfolio Assistant",
-        "type": "AI",
-        "tags": [
-            "OpenAI",
-            "Chatbot"
-        ],
-        "description": "Interactive portfolio assistant powered by OpenAI, allowing visitors to converse with a virtual representation of my professional profile."
+        "description": "Engineered a specialized HVAC ducting assembly for an industrial cleanroom, balancing airflow requirements with spatial constraints."
     }
 ]
