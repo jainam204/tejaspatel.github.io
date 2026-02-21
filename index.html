@@ -12,8 +12,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Share+Tech+Mono&family=Roboto+Mono:wght@400;500;700&display=swap"
         rel="stylesheet">
+
+    <!-- Tailwind Config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: ['class', '[data-theme="dark"]'],
+            theme: {
+                extend: {
+                    colors: {
+                        gunmetal: '#111315',
+                        graphite: '#1C1F22',
+                        'carbon-black': '#0A0C0D',
+                        'oil-blue': '#1F3A4B',
+                        'cad-green': '#00FFA3',
+                        'blueprint-cyan': '#00E5FF',
+                        'heat-orange': '#FF3D00',
+                        'warning-amber': '#FFB300',
+                        steel: '#8A9A9D'
+                    },
+                    fontFamily: {
+                        main: ['"Chakra Petch"', 'sans-serif'],
+                        display: ['"Chakra Petch"', 'sans-serif'],
+                        tech: ['"Share Tech Mono"', 'monospace'],
+                        mono: ['"Roboto Mono"', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
@@ -109,7 +138,7 @@
 
                     <div class="badge-pill fade-in">
                         <span class="status-dot"></span>
-                        Available for work
+                        SYS.STATUS: ONLINE // AVAILABLE
                     </div>
 
                     <h1 class="hero-title fade-in-up">
@@ -118,21 +147,21 @@
                     </h1>
 
                     <p class="hero-subtitle fade-in-up delay-1">
-                        Hi, I'm <strong>Tejas Patel</strong> — a Mechanical Engineer
-                        specializing in Equipment Design, Pressure Vessels, and
-                        Industrial Automation based in Ahmedabad, India.
+                        <strong>ID:</strong> Tejas Patel // <strong>SPEC:</strong> Mechanical Engineer<br>
+                        <strong>DOMAIN:</strong> Equipment Design, Pressure Vessels, Industrial Automation<br>
+                        <strong>LOC:</strong> Ahmedabad, India.
                     </p>
 
                     <div class="hero-btns fade-in-up delay-2">
                         <a href="#projects" class="btn btn-primary">
-                            View Work
+                            [ INITIATE_VIEW ]
                             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"
                                 viewBox="0 0 24 24">
                                 <line x1="5" y1="12" x2="19" y2="12" />
                                 <polyline points="12 5 19 12 12 19" />
                             </svg>
                         </a>
-                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="#contact" class="btn btn-secondary">[ CONTACT_COMMS ]</a>
                     </div>
 
                 </div>
@@ -143,42 +172,43 @@
                     <div class="orb orb-2"></div>
                     <div class="orb orb-3"></div>
                     <div class="code-block">
-                        <pre><code><span class="comment">// Tejas Patel — Mechanical Engineer</span>
-<span class="keyword">const</span> <span class="variable">engineer</span> = {
-  <span class="property">name</span>:      <span class="string">"Tejas Patel"</span>,
-  <span class="property">location</span>:  <span class="string">"Ahmedabad, IN"</span>,
-  <span class="property">skills</span>:    [<span class="string">"SolidWorks"</span>, <span class="string">"PV Elite"</span>, <span class="string">"NozzlePRO"</span>],
-  <span class="property">available</span>: <span class="boolean">true</span>,
-  <span class="property">projects</span>:  <span class="number">10</span><span class="string">+</span>,
+                        <div class="code-block">
+                            <pre><code><span class="comment">// Tejas Patel — System Profile</span>
+<span class="keyword">struct</span> <span class="variable">Engineer</span> {
+  <span class="property">id</span>:         <span class="string">"Tejas Patel"</span>,
+  <span class="property">location</span>:   <span class="string">"Ahmedabad, IN"</span>,
+  <span class="property">modules</span>:    [<span class="string">"SolidWorks"</span>, <span class="string">"PV Elite"</span>, <span class="string">"NozzlePRO"</span>],
+  <span class="property">status</span>:     <span class="boolean">ONLINE</span>,
+  <span class="property">deployments</span>:<span class="number">10</span><span class="string">+</span>,
 };
 
-<span class="keyword">export default</span> <span class="variable">engineer</span>;</code></pre>
+<span class="keyword">export target</span> <span class="variable">Engineer</span>;</code></pre>
+                        </div>
+                        <div class="tech-orbit">
+                            <div class="orbit-pill"><span class="pill-dot"></span>SolidWorks</div>
+                            <div class="orbit-pill"><span class="pill-dot"></span>PV Elite</div>
+                            <div class="orbit-pill"><span class="pill-dot"></span>Design</div>
+                        </div>
                     </div>
-                    <div class="tech-orbit">
-                        <div class="orbit-pill"><span class="pill-dot"></span>SolidWorks</div>
-                        <div class="orbit-pill"><span class="pill-dot"></span>PV Elite</div>
-                        <div class="orbit-pill"><span class="pill-dot"></span>Design</div>
-                    </div>
+
                 </div>
 
-            </div>
-
-            <!-- Scroll Indicator -->
-            <div class="scroll-indicator fade-in delay-3">
-                <div class="mouse">
-                    <div class="wheel"></div>
+                <!-- Scroll Indicator -->
+                <div class="scroll-indicator fade-in delay-3">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
                 </div>
-            </div>
         </section>
 
         <!-- ═══════════ ABOUT ═══════════ -->
         <section id="about" class="section about">
             <div class="container">
                 <div class="section-header reveal">
-                    <span class="section-tag">About Me</span>
-                    <h2 class="section-title">Designing robust systems,<br><span class="gradient-text">from concept to
-                            reality.</span></h2>
-                    <p class="section-desc">Who I am and what I love designing.</p>
+                    <span class="section-tag">[ MOD_01 : SYS_PROFILE ]</span>
+                    <h2 class="section-title">ENGINEERING ROBUST SYSTEMS,<br><span
+                            class="gradient-text">CONCEPT_TO_DEPLOYMENT.</span></h2>
+                    <p class="section-desc">Technical specifications and core competencies.</p>
                 </div>
 
                 <div class="about-grid">
@@ -241,9 +271,9 @@
         <section id="experience" class="section experience">
             <div class="container">
                 <div class="section-header reveal">
-                    <span class="section-tag">Experience</span>
-                    <h2 class="section-title">My Journey.</h2>
-                    <p class="section-desc">A timeline of my professional experience and projects.</p>
+                    <span class="section-tag">[ MOD_02 : OP_HISTORY ]</span>
+                    <h2 class="section-title">OPERATIONAL TIMELINE.</h2>
+                    <p class="section-desc">Sequential log of professional experience and deployments.</p>
                 </div>
 
                 <div class="timeline">
@@ -307,9 +337,9 @@
         <section id="skills" class="section skills">
             <div class="container">
                 <div class="section-header reveal">
-                    <span class="section-tag">Tech Stack</span>
-                    <h2 class="section-title">The tools I build with.</h2>
-                    <p class="section-desc">A curated set of technologies I use to craft great products.</p>
+                    <span class="section-tag">[ MOD_03 : TOOL_MATRIX ]</span>
+                    <h2 class="section-title">EQUIPMENT DATABASE.</h2>
+                    <p class="section-desc">Array of technical software and engineering methodologies.</p>
                 </div>
 
                 <div class="bento-grid">
@@ -374,9 +404,9 @@
         <section id="projects" class="section projects">
             <div class="container">
                 <div class="section-header reveal">
-                    <span class="section-tag">Selected Works</span>
-                    <h2 class="section-title">Things I've built.</h2>
-                    <p class="section-desc">A selection of projects across web, mobile, and AI.</p>
+                    <span class="section-tag">[ MOD_04 : DEPLOYMENTS ]</span>
+                    <h2 class="section-title">ENGINEERED UNITS.</h2>
+                    <p class="section-desc">Log of designed, simulated, and manufactured projects.</p>
                 </div>
 
                 <div class="projects-grid" id="projects-container">
@@ -390,12 +420,12 @@
             <div class="container">
                 <div class="contact-wrapper reveal">
                     <div class="contact-info">
-                        <h2>Let's <span class="gradient-text">work together</span></h2>
-                        <p>Have a project in mind? I'd love to hear about it. Let's build something great.</p>
+                        <h2>ESTABLISH <span class="gradient-text">COMMS_LINK</span></h2>
+                        <p>Initialize transmission for collaborative efforts or technical inquiries.</p>
 
                         <div class="contact-links">
-                            <a href="mailto:tejaspatel3134.tp@gmail.com" class="contact-link">
-                                <span class="icon">✉️</span> tejaspatel3134.tp@gmail.com
+                            <a href="mailto:tejaspatel3134.@gmail.com" class="contact-link">
+                                <span class="icon">✉️</span> tejaspatel3134.@gmail.com
                             </a>
                             <a href="tel:+919662143139" class="contact-link">
                                 <span class="icon">📞</span> +91 96621 43139
