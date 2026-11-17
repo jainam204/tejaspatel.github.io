@@ -1,63 +1,142 @@
 [
     {
-        "title": "Industrial Pressure Vessel",
+        "title": "Air Cooled Heat Exchanger (ACHE) Bay Assembly",
         "type": "Featured",
+        "category": "Heat Exchangers",
+        "badge": "Featured Project",
+        "heroImage": "images/1-Isometric.jpg",
+        "images": [
+            "images/1-Isometric.jpg",
+            "images/2-Front.jpg",
+            "images/3-Side.jpg",
+            "images/4-grating Top.jpg",
+            "images/10.jpg",
+            "images/16.jpg",
+            "images/17.jpg",
+            "images/20.jpg"
+        ],
         "tags": [
-            "PV Elite",
-            "ASME Sec VIII",
             "SolidWorks",
-            "AutoCAD"
+            "API 661",
+            "Equipment Design",
+            "Weldments",
+            "Plenum Design"
         ],
-        "description": "Comprehensive design and analysis of a high-pressure industrial vessel, ensuring structural integrity and compliance with ASME boiler and pressure vessel codes."
+        "metrics": "Multi-Bundle Bay • API 661",
+        "description": "Comprehensive 3D mechanical design and assembly of a heavy-duty Air Cooled Heat Exchanger (Fin-Fan Cooler) bay. Integrated high-pressure finned tube bundles, aerodynamic plenum hoods, fan drive support framing, perimeter maintenance platforms, and safety cage access ladders."
     },
     {
-        "title": "Shell & Tube Heat Exchanger",
-        "type": "Design",
-        "tags": [
-            "Thermal Analysis",
-            "SolidWorks",
-            "GD&T"
+        "title": "Automated Pressure Vessel Design System (iLogic)",
+        "type": "CAD Automation",
+        "category": "CAD Automation",
+        "badge": "Design Automation",
+        "heroImage": "images/39.jpg",
+        "images": [
+            "images/39.jpg",
+            "images/31.jpg",
+            "images/27.jpg",
+            "images/32.jpg",
+            "images/37.jpg",
+            "images/34.jpg"
         ],
-        "description": "Detailed 3D modeling and thermal efficiency analysis of a custom shell and tube heat exchanger optimized for chemical plant operations."
-    },
-    {
-        "title": "Piping & Equipment Layout",
-        "type": "Layout",
-        "tags": [
-            "AutoCAD 3D",
-            "P&ID",
-            "Routing"
-        ],
-        "description": "Developed an extensive 3D piping layout and general arrangement (GA) drawings for a new manufacturing facility, ensuring optimal workflow and maintenance access."
-    },
-    {
-        "title": "Storage Tank FEA Analysis",
-        "type": "Analysis",
-        "tags": [
-            "NozzlePRO",
-            "Ansys",
-            "Stress Analysis"
-        ],
-        "description": "Conducted finite element analysis (FEA) on a large-scale storage tank to evaluate localized stresses at nozzle intersections and support attachments."
-    },
-    {
-        "title": "Automated Conveyor System",
-        "type": "Automation",
         "tags": [
             "Autodesk Inventor",
-            "Sheet Metal",
-            "BOM"
+            "iLogic",
+            "ASME Sec VIII",
+            "Parametric CAD",
+            "Excel / VBA"
         ],
-        "description": "Designed a custom automated material handling conveyor system, including sheet metal enclosures and standardized component selection."
+        "metrics": "90% Faster Modeling • ASME Section VIII",
+        "description": "Architected an intelligent parametric design automation suite in Autodesk Inventor using iLogic rules and custom UI forms. Dynamically generates ASME-compliant pressure vessels, nozzles, body flanges, skirt/saddle supports, and shell/dish configurations from engineering spreadsheets."
     },
     {
-        "title": "Custom HVAC Assembly",
-        "type": "HVAC",
+        "title": "Horizontal Pressure Vessel with Stiffener Rings",
+        "type": "Pressure Vessel",
+        "category": "Pressure Vessels",
+        "badge": "ASME Sec VIII",
+        "heroImage": "images/23.jpg",
+        "images": [
+            "images/23.jpg",
+            "images/24.jpg",
+            "images/25.jpg",
+            "images/26.jpg"
+        ],
+        "tags": [
+            "PV Elite",
+            "SolidWorks",
+            "ASME Sec VIII Div 1",
+            "Saddle Design",
+            "Fabrication GA"
+        ],
+        "metrics": "Heavy Industrial • Stiffener Rings",
+        "description": "Detailed mechanical design and 3D modeling of an ASME Section VIII Div 1 horizontal pressure vessel. Engineered with fixed and sliding saddle supports, wear plates, circumferential stiffener rings for vacuum/external pressure, top manway, and process nozzles."
+    },
+    {
+        "title": "ACHE Header Box & Multi-Pass Tube Bundle",
+        "type": "Thermal Design",
+        "category": "Heat Exchangers",
+        "badge": "High Pressure",
+        "heroImage": "images/17.jpg",
+        "images": [
+            "images/17.jpg",
+            "images/16.jpg",
+            "images/18.jpg",
+            "images/19.jpg"
+        ],
         "tags": [
             "SolidWorks",
-            "Fluid Dynamics",
-            "Drafting"
+            "Plug Header",
+            "API 661",
+            "Multi-Pass",
+            "Tube Layout"
         ],
-        "description": "Engineered a specialized HVAC ducting assembly for an industrial cleanroom, balancing airflow requirements with spatial constraints."
+        "metrics": "Plug Sheet • Staggered Pitch",
+        "description": "Precision 3D modeling of high-pressure plug-type header boxes with internal welded pass partition plates and tube sheet hole pattern. Includes complete finned tube bundle assembly with intermediate anti-vibration tube supports and side channels."
+    },
+    {
+        "title": "Industrial Bay Structural Steel & Access Platforms",
+        "type": "Structural",
+        "category": "Structural Design",
+        "badge": "Steel Structure",
+        "heroImage": "images/10.jpg",
+        "images": [
+            "images/10.jpg",
+            "images/5.jpg",
+            "images/7.jpg",
+            "images/8.jpg",
+            "images/11.jpg",
+            "images/14.jpg"
+        ],
+        "tags": [
+            "SolidWorks Weldments",
+            "Structural Steel",
+            "IS 800 / AISC",
+            "BOM / Cut Lists",
+            "OSHA Safety"
+        ],
+        "metrics": "Full Bay Steel • Caged Ladders",
+        "description": "Complete structural steel framework for heat exchanger bays, engineered with universal column sections, cross-bracing, fan drive motor bridges, serrated grating platforms, kick plates, and safety cage access ladders adhering to industrial safety standards."
+    },
+    {
+        "title": "Vertical Process Column with Skirt Support",
+        "type": "Process Equipment",
+        "category": "Pressure Vessels",
+        "badge": "Process Column",
+        "heroImage": "images/31.jpg",
+        "images": [
+            "images/31.jpg",
+            "images/28.jpg",
+            "images/29.jpg",
+            "images/30.jpg"
+        ],
+        "tags": [
+            "Autodesk Inventor",
+            "Skirt Support",
+            "ASME Sec VIII",
+            "Anchor Base Ring",
+            "Rigging Trunnions"
+        ],
+        "metrics": "Base Ring Detailing • Skirt Cutouts",
+        "description": "Engineered vertical process vessel column featuring slotted anchor bolt base ring, skirt pipe sleeves, lifting lugs with reinforcement backing, shell manways, and flanged vapor outlets modeled with precision manufacturing tolerances."
     }
 ]

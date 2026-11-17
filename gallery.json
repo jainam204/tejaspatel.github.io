@@ -1,0 +1,353 @@
+[
+    {
+        "id": 1,
+        "src": "images/1-Isometric.jpg",
+        "title": "Air Cooled Heat Exchanger (ACHE) — Full Bay Isometric",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Complete 3D bay assembly with multi-pass tube bundles, plenum hoods, motor suspension bridge, perimeter walkways, and caged ladders."
+    },
+    {
+        "id": 2,
+        "src": "images/2-Front.jpg",
+        "title": "ACHE Bay Structure — Front Elevation View",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Front orthographic view displaying column spans, bundle elevations, ground clearance, and piping nozzle interface points."
+    },
+    {
+        "id": 3,
+        "src": "images/3-Side.jpg",
+        "title": "ACHE Bay Structure — Side Elevation View",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Side elevation showing plenum chamber slope, transverse sway bracing, access ladder cage, and bundle layout."
+    },
+    {
+        "id": 4,
+        "src": "images/4-grating Top.jpg",
+        "title": "ACHE Bay Top View — Serrated Grating Deck",
+        "category": "platform",
+        "categoryLabel": "Platforms & Steel",
+        "software": "SolidWorks",
+        "desc": "Top deck plan view illustrating anti-slip serrated grating walkway perimeter, bundle boundary channels, and ladder landings."
+    },
+    {
+        "id": 5,
+        "src": "images/5.jpg",
+        "title": "Corner Maintenance Platform & Caged Ladder",
+        "category": "platform",
+        "categoryLabel": "Platforms & Steel",
+        "software": "SolidWorks",
+        "desc": "Detailed junction of safety caged ladder, column gussets, bundle header nozzles, and safety kickplates."
+    },
+    {
+        "id": 6,
+        "src": "images/6.jpg",
+        "title": "Platform Handrail & Kickplate Connection",
+        "category": "platform",
+        "categoryLabel": "Platforms & Steel",
+        "software": "SolidWorks",
+        "desc": "Detailing of industrial handrail stanchions, toe-board kickplates, and bolted framing joints."
+    },
+    {
+        "id": 7,
+        "src": "images/7.jpg",
+        "title": "Walkway Corner Landing & Handrail Detail",
+        "category": "platform",
+        "categoryLabel": "Platforms & Steel",
+        "software": "SolidWorks",
+        "desc": "Isometric view of the maintenance platform corner with safety gates, knee-rails, and non-slip floor panels."
+    },
+    {
+        "id": 8,
+        "src": "images/8.jpg",
+        "title": "Cantilever Platform Support & Knee Bracing",
+        "category": "platform",
+        "categoryLabel": "Platforms & Steel",
+        "software": "SolidWorks",
+        "desc": "Under-platform structural cantilever bracket assembly with bolted diagonal knee bracing and ladder mounts."
+    },
+    {
+        "id": 9,
+        "src": "images/9.jpg",
+        "title": "Safety Ladder Hoops & Structural Mounts",
+        "category": "platform",
+        "categoryLabel": "Platforms & Steel",
+        "software": "SolidWorks",
+        "desc": "Precision modeling of OSHA-compliant safety cage hoops, ladder stringers, and column mounting tabs."
+    },
+    {
+        "id": 10,
+        "src": "images/10.jpg",
+        "title": "ACHE Primary Structural Steel Bay Framework",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks Weldments",
+        "desc": "Complete primary structural steel framework with universal columns, longitudinal girders, and transverse cross-ties."
+    },
+    {
+        "id": 11,
+        "src": "images/11.jpg",
+        "title": "Fan Drive Suspension & Motor Bridge Structure",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Dual fan motor support framing featuring cross-channel beams, motor baseplates, and vibration sway struts."
+    },
+    {
+        "id": 12,
+        "src": "images/12.jpg",
+        "title": "Intermediate Transverse Bay Cross-Beam",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Intermediate structural cross-beam weldments and bolted shear connection tabs."
+    },
+    {
+        "id": 13,
+        "src": "images/13.jpg",
+        "title": "Fan Motor Slide Base Frame",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Adjustable motor mounting rails designed for belt tensioning and drive alignment."
+    },
+    {
+        "id": 14,
+        "src": "images/14.jpg",
+        "title": "Fan Motor Drive Base & Shaft Hub Beam",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Heavy-duty channel beams with machined central motor drive shaft aperture and bolt circle."
+    },
+    {
+        "id": 15,
+        "src": "images/15.jpg",
+        "title": "Column Top Connection & Bundle Girder Splice",
+        "category": "platform",
+        "categoryLabel": "Platforms & Steel",
+        "software": "SolidWorks",
+        "desc": "High-strength bolted moment and shear connection between vertical column and bay longitudinal girder."
+    },
+    {
+        "id": 16,
+        "src": "images/16.jpg",
+        "title": "Finned Tube Bundle Complete Assembly",
+        "category": "bundle",
+        "categoryLabel": "Tube Bundles & Headers",
+        "software": "SolidWorks",
+        "desc": "Finished bundle assembly featuring side frame channels, tube spacers, lifting trunnions, and header box."
+    },
+    {
+        "id": 17,
+        "src": "images/17.jpg",
+        "title": "ACHE Header Box 3D Cutaway & Pass Partitions",
+        "category": "bundle",
+        "categoryLabel": "Tube Bundles & Headers",
+        "software": "SolidWorks",
+        "desc": "Cutaway perspective exposing internal welded pass partition plates, plug holes, nozzles, and tube joints."
+    },
+    {
+        "id": 18,
+        "src": "images/18.jpg",
+        "title": "Finned Tube Bundle Cross Section & Pitch Layout",
+        "category": "bundle",
+        "categoryLabel": "Tube Bundles & Headers",
+        "software": "SolidWorks",
+        "desc": "Triangular pitch tube layout with finned aluminum tubes, top/bottom retainer bars, and side seals."
+    },
+    {
+        "id": 19,
+        "src": "images/19.jpg",
+        "title": "Tube Bundle Side Channel & Tube Support Comb",
+        "category": "bundle",
+        "categoryLabel": "Tube Bundles & Headers",
+        "software": "SolidWorks",
+        "desc": "Structural side channel detailing with intermediate tube support comb slots and guide pins."
+    },
+    {
+        "id": 20,
+        "src": "images/20.jpg",
+        "title": "Plenum Chamber Aerodynamic Transition Duct",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks Sheet Metal",
+        "desc": "Sheet metal lofted transition hood converting rectangular bay plan into circular fan ring shroud."
+    },
+    {
+        "id": 21,
+        "src": "images/21.jpg",
+        "title": "Plenum Corner Flange & Joint Stiffener",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Segmented plenum panel joint with bolted sealing lips and corner stiffeners."
+    },
+    {
+        "id": 22,
+        "src": "images/22.jpg",
+        "title": "Aerodynamic Fan Ring Cowl Shroud",
+        "category": "ache",
+        "categoryLabel": "ACHE & Equipment",
+        "software": "SolidWorks",
+        "desc": "Smooth bellmouth fan inlet ring engineered to maximize airflow efficiency and minimize tip vortex loss."
+    },
+    {
+        "id": 23,
+        "src": "images/23.jpg",
+        "title": "Horizontal Pressure Vessel (Isometric 3D CAD)",
+        "category": "vessel",
+        "categoryLabel": "Pressure Vessels",
+        "software": "SolidWorks / ASME Sec VIII",
+        "desc": "Isometric view of ASME Section VIII horizontal pressure vessel with saddle supports, stiffeners, manway, and nozzles."
+    },
+    {
+        "id": 24,
+        "src": "images/24.jpg",
+        "title": "Horizontal Pressure Vessel — Elevation GA View",
+        "category": "vessel",
+        "categoryLabel": "Pressure Vessels",
+        "software": "SolidWorks / PV Elite",
+        "desc": "General arrangement elevation showing fixed & sliding saddles, shell courses, and process nozzles."
+    },
+    {
+        "id": 25,
+        "src": "images/25.jpg",
+        "title": "Horizontal Pressure Vessel — Top Plan View",
+        "category": "vessel",
+        "categoryLabel": "Pressure Vessels",
+        "software": "SolidWorks",
+        "desc": "Top nozzle layout, central flanged inspection manway, and circumferential stiffener ring placements."
+    },
+    {
+        "id": 26,
+        "src": "images/26.jpg",
+        "title": "Parametric Vessel Support Saddle 3D CAD Model",
+        "category": "vessel",
+        "categoryLabel": "Pressure Vessels",
+        "software": "Autodesk Inventor",
+        "desc": "Engineered saddle support with curved wear plate, web stiffeners, gusset ribs, and anchor bolt slots."
+    },
+    {
+        "id": 27,
+        "src": "images/27.jpg",
+        "title": "iLogic Saddle Detail Parametric Form UI",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Interactive iLogic rule form automating saddle angle, wear plate geometry, rib count, and bolt slot spacing."
+    },
+    {
+        "id": 28,
+        "src": "images/28.jpg",
+        "title": "Vertical Process Column with Skirt Support",
+        "category": "vessel",
+        "categoryLabel": "Pressure Vessels",
+        "software": "Autodesk Inventor",
+        "desc": "3D CAD model of vertical process column showing skirt support, nozzles, lifting lugs, and shell manhole."
+    },
+    {
+        "id": 29,
+        "src": "images/29.jpg",
+        "title": "Vertical Vessel Skirt Base Ring & Anchor Slots",
+        "category": "vessel",
+        "categoryLabel": "Pressure Vessels",
+        "software": "Autodesk Inventor",
+        "desc": "Detailing of cylindrical skirt base ring with slotted anchor bolt holes, pipe sleeve cutout, and nameplate bracket."
+    },
+    {
+        "id": 30,
+        "src": "images/30.jpg",
+        "title": "Vertical Vessel Top Head & Lifting Trunnions",
+        "category": "vessel",
+        "categoryLabel": "Pressure Vessels",
+        "software": "Autodesk Inventor",
+        "desc": "Top ellipsoidal dish end with flanged vapor nozzle, reinforcing pad, and dual heavy-duty lifting lugs."
+    },
+    {
+        "id": 31,
+        "src": "images/31.jpg",
+        "title": "Full Vertical Column in Inventor iLogic Environment",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Autodesk Inventor",
+        "desc": "Complete parametric vertical vessel assembly driven dynamically by automated rule modules."
+    },
+    {
+        "id": 32,
+        "src": "images/32.jpg",
+        "title": "iLogic 'Shell & Dish' Parametric Configuration UI",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Parametric form for Shell & Dish selection (Elliptical, Torispherical, Hemispherical, ID, Crown & Knuckle radii)."
+    },
+    {
+        "id": 33,
+        "src": "images/33.jpg",
+        "title": "iLogic 'Cone & Reducer' Configuration Dialog",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Automated concentric and eccentric cone transitions with knuckle radius calculation."
+    },
+    {
+        "id": 34,
+        "src": "images/34.jpg",
+        "title": "iLogic 'Elbow & Piping' Parametric Dialog",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Parametric generation of pipe elbows, orientations, elevations, and nozzle attachments."
+    },
+    {
+        "id": 35,
+        "src": "images/35.jpg",
+        "title": "iLogic 'Body Flange' Automated Sizing UI",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Automated body flange design interface with ASME flange ratings, bolt circles, and gasket dimensions."
+    },
+    {
+        "id": 36,
+        "src": "images/36.jpg",
+        "title": "iLogic 'Expansion Bellow' Parametric Dialog",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Design automation module for metallic expansion joints and bellows integration."
+    },
+    {
+        "id": 37,
+        "src": "images/37.jpg",
+        "title": "iLogic 'Nozzle & Flange' Dynamic Placement UI",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Interactive nozzle placement specifying elevation, radial orientation, flange rating (WN/RF), and repad."
+    },
+    {
+        "id": 38,
+        "src": "images/38.jpg",
+        "title": "iLogic 'Lifting Lugs & Rigging' Parametric UI",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Rigging attachment configuration for vessel tailing and lifting lugs with stress-checked hole diameters."
+    },
+    {
+        "id": 39,
+        "src": "images/39.jpg",
+        "title": "Integrated iLogic Pressure Vessel Automation Suite",
+        "category": "ilogic",
+        "categoryLabel": "CAD Automation",
+        "software": "Inventor iLogic",
+        "desc": "Comprehensive multi-dialogue CAD automation suite dynamically generating complete vessels in real time."
+    }
+]

@@ -54,6 +54,7 @@
                     <li><a href="#experience" class="nav-link">Experience</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#gallery" class="nav-link">CAD Gallery</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
@@ -96,6 +97,7 @@
             <a href="#experience" class="mobile-link">Experience</a>
             <a href="#skills" class="mobile-link">Skills</a>
             <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#gallery" class="mobile-link">CAD Gallery</a>
             <a href="#contact" class="mobile-link">Contact</a>
         </nav>
     </div>
@@ -142,22 +144,56 @@
                     <div class="orb orb-1"></div>
                     <div class="orb orb-2"></div>
                     <div class="orb orb-3"></div>
-                    <div class="code-block">
-                        <pre><code><span class="comment">// Tejas Patel — Mechanical Engineer</span>
-<span class="keyword">const</span> <span class="variable">engineer</span> = {
-  <span class="property">name</span>:      <span class="string">"Tejas Patel"</span>,
-  <span class="property">location</span>:  <span class="string">"Ahmedabad, IN"</span>,
-  <span class="property">skills</span>:    [<span class="string">"SolidWorks"</span>, <span class="string">"PV Elite"</span>, <span class="string">"NozzlePRO"</span>],
-  <span class="property">available</span>: <span class="boolean">true</span>,
-  <span class="property">projects</span>:  <span class="number">10</span><span class="string">+</span>,
-};
-
-<span class="keyword">export default</span> <span class="variable">engineer</span>;</code></pre>
+                    <div class="hero-cad-card">
+                        <div class="cad-card-header">
+                            <div class="cad-window-controls">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
+                            </div>
+                            <span class="cad-sys-status"><span class="pulse-live"></span> SolidWorks 3D Assembly</span>
+                            <span class="cad-standard-tag">API 661 / ASME VIII</span>
+                        </div>
+                        <div class="cad-card-preview" id="hero-cad-preview">
+                            <img src="images/1-Isometric.jpg" alt="Air Cooled Heat Exchanger 3D Bay Assembly" class="cad-preview-img">
+                            <div class="cad-preview-overlay"></div>
+                            <div class="cad-spec-floating top-left">
+                                <span class="label">EQUIPMENT</span>
+                                <span class="val">ACHE Bay Assembly</span>
+                            </div>
+                            <div class="cad-spec-floating bottom-right">
+                                <span class="label">STANDARDS</span>
+                                <span class="val">ASME Sec VIII • API 661</span>
+                            </div>
+                        </div>
+                        <div class="cad-card-footer">
+                            <div class="cad-meta-items">
+                                <div class="cad-meta-item">
+                                    <span class="meta-label">Primary CAD</span>
+                                    <span class="meta-val">SolidWorks</span>
+                                </div>
+                                <div class="cad-meta-item">
+                                    <span class="meta-label">Automation</span>
+                                    <span class="meta-val">iLogic Parametric</span>
+                                </div>
+                                <div class="cad-meta-item">
+                                    <span class="meta-label">Total Works</span>
+                                    <span class="meta-val">39 CAD Models</span>
+                                </div>
+                            </div>
+                            <a href="#gallery" class="cad-explore-btn">
+                                <span>Inspect Gallery</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <div class="tech-orbit">
                         <div class="orbit-pill"><span class="pill-dot"></span>SolidWorks</div>
+                        <div class="orbit-pill"><span class="pill-dot"></span>Inventor iLogic</div>
                         <div class="orbit-pill"><span class="pill-dot"></span>PV Elite</div>
-                        <div class="orbit-pill"><span class="pill-dot"></span>Design</div>
                     </div>
                 </div>
 
@@ -374,13 +410,39 @@
         <section id="projects" class="section projects">
             <div class="container">
                 <div class="section-header reveal">
-                    <span class="section-tag">Selected Works</span>
-                    <h2 class="section-title">Things I've built.</h2>
-                    <p class="section-desc">A selection of projects across web, mobile, and AI.</p>
+                    <span class="section-tag">Featured Engineering Projects</span>
+                    <h2 class="section-title">Industrial Equipment &amp; Automation.</h2>
+                    <p class="section-desc">Selected engineering projects spanning Air Cooled Heat Exchangers (API 661), ASME Section VIII Pressure Vessels, and Inventor iLogic Parametric Automation.</p>
                 </div>
 
                 <div class="projects-grid" id="projects-container">
                     <!-- Cards loaded dynamically via script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════ 3D CAD & ENGINEERING GALLERY ═══════════ -->
+        <section id="gallery" class="section gallery">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">3D CAD Portfolio</span>
+                    <h2 class="section-title">Technical 3D Models &amp; Drawings.</h2>
+                    <p class="section-desc">Explore complete 3D assemblies, internal cross-sections, fabrication details, and iLogic design automation rules. Click any model to inspect high-resolution details.</p>
+                </div>
+
+                <!-- Gallery Filters -->
+                <div class="gallery-filters reveal">
+                    <button class="filter-btn active" data-filter="all">All Models <span class="filter-count">39</span></button>
+                    <button class="filter-btn" data-filter="ache">ACHE Bay Equipment <span class="filter-count">12</span></button>
+                    <button class="filter-btn" data-filter="bundle">Tube Bundles &amp; Headers <span class="filter-count">5</span></button>
+                    <button class="filter-btn" data-filter="vessel">Pressure Vessels <span class="filter-count">8</span></button>
+                    <button class="filter-btn" data-filter="ilogic">iLogic CAD Automation <span class="filter-count">9</span></button>
+                    <button class="filter-btn" data-filter="platform">Platforms &amp; Steel <span class="filter-count">5</span></button>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Populated dynamically via script.js -->
                 </div>
             </div>
         </section>
@@ -431,6 +493,66 @@
             </div>
         </div>
     </footer>
+
+    <!-- ═══════════ CAD LIGHTBOX MODAL ═══════════ -->
+    <div id="cad-lightbox" class="lightbox-modal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="lightbox-overlay" id="lightbox-backdrop"></div>
+        <div class="lightbox-wrapper">
+            <header class="lightbox-topbar">
+                <div class="lightbox-top-meta">
+                    <span class="lightbox-badge" id="lightbox-software">SolidWorks</span>
+                    <span class="lightbox-category" id="lightbox-cat">ACHE Bay Equipment</span>
+                    <span class="lightbox-counter" id="lightbox-counter">1 / 39</span>
+                </div>
+                <div class="lightbox-top-actions">
+                    <button class="lightbox-action-btn" id="lightbox-zoom" aria-label="Toggle Fit or Full Size" title="Toggle Zoom">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            <line x1="11" y1="8" x2="11" y2="14"></line>
+                            <line x1="8" y1="11" x2="14" y2="11"></line>
+                        </svg>
+                    </button>
+                    <button class="lightbox-action-btn lightbox-close" id="lightbox-close" aria-label="Close Lightbox" title="Close (ESC)">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </header>
+
+            <div class="lightbox-body">
+                <button class="lightbox-nav-btn prev" id="lightbox-prev" aria-label="Previous Model (Left Arrow)" title="Previous (Left Arrow)">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+
+                <div class="lightbox-stage">
+                    <div class="lightbox-img-frame" id="lightbox-img-frame">
+                        <img id="lightbox-img" src="" alt="CAD Technical Model" draggable="false">
+                    </div>
+                </div>
+
+                <button class="lightbox-nav-btn next" id="lightbox-next" aria-label="Next Model (Right Arrow)" title="Next (Right Arrow)">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+            <footer class="lightbox-caption-bar">
+                <div class="lightbox-text">
+                    <h3 id="lightbox-title" class="lightbox-title">Model Title</h3>
+                    <p id="lightbox-desc" class="lightbox-desc">Detailed engineering specifications and design annotations.</p>
+                </div>
+                <div class="lightbox-thumbs-reel" id="lightbox-thumbs">
+                    <!-- Dynamic thumbs -->
+                </div>
+            </footer>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
